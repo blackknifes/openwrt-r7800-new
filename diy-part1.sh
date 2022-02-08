@@ -18,4 +18,5 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
+sed -i '$a src-git iptv https://github.com/riverscn/openwrt-iptvhelper.git' feeds.conf.default
 #sed -i '$a src-git my https://github.com/blackknifes/openwrt-package.git' feeds.conf.default
